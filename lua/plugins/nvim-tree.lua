@@ -34,6 +34,13 @@ return {
           },
           filters = {
             dotfiles = false,
+            custom = {
+              '.git',
+              '.vite',
+              '.github',
+              '.yarn',
+              '.mvn'
+            }
           },
           update_focused_file = { enable = true },
           hijack_netrw = true,
